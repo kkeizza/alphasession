@@ -129,21 +129,21 @@ router.get('/', async (req, res) => {
                             try {
                                 Sess = await sendButtons(Gifted, Gifted.user.id, {
             title: '',
-            text: 'KEITH;;;' + b64data,
+            text: 'ALPHA;;;' + b64data,
           //  footer: `> *Made on Earth by man 🗿*`,
             buttons: [
                 { 
                     name: 'cta_copy', 
                     buttonParamsJson: JSON.stringify({ 
                         display_text: 'Copy Session', 
-                        copy_code: 'KEITH;;;' + b64data 
+                        copy_code: 'ALPHA;;;' + b64data 
                     }) 
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'visit our site',
-                        url: 'https://keithsite.vercel.app'
+                        url: 'https://keithsite.top'
                     })
                 },
                 {

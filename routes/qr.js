@@ -230,20 +230,20 @@ router.get('/', async (req, res) => {
                         let b64data = compressedData.toString('base64');
                         const Sess = await sendButtons(Gifted, Gifted.user.id, {
             title: '',
-            text: 'KEITH;;;' + b64data,
+            text: 'ALPHA;;;' + b64data,
             buttons: [
                 { 
                     name: 'cta_copy', 
                     buttonParamsJson: JSON.stringify({ 
                         display_text: 'Copy Session', 
-                        copy_code: 'KEITH;;;' + b64data 
+                        copy_code: 'ALPHA;;;' + b64data 
                     }) 
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Visit owner',
-                        url: 'https://github.com/keithkeizzah'
+                        url: 'https://github.com/kkeizza'
                     })
                 },
                 {
